@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Footer extends React.Component {
-  render(){
+  render() {
     return (
       <article>
         <p>Created By: Dasha Burgos</p>
