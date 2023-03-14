@@ -1,5 +1,5 @@
 import React from 'react';
-import Hornedbeast from '../Hornedbeast';
+import Hornedbeast from '../Components/Hornedbeast';
 
 class Main extends React.Component {
   render() {
