@@ -1,6 +1,6 @@
 import React from 'react';
 import Hornedbeast from '../Components/Hornedbeast';
-import data from './data/data.json';
+import data from '../data/data.json';
 
 
 class Main extends React.Component {
@@ -9,7 +9,7 @@ class Main extends React.Component {
     return (
       <>
         {data.map(beast => {
-          return <Hornedbeast />
+          return <Hornedbeast title = {beast.title} />
         })}
       </>
     )

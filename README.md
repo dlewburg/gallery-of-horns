@@ -12,11 +12,11 @@ Assisted by: Matt (TA), Cameron Walden,
 
 ### Feature #1: Display Images
 
-Estimate of time needed to Complete:
+Estimate of time needed to Complete: 2 hours
 
-Start Time:
+Start Time: 1800
 
-Finish Time:
+Finish Time: 
 
 Actual Time Needed to Complete:
 
