@@ -26,9 +26,9 @@ Estimate of time needed to Complete: 1 hour
 
 Start Time: 1845
 
-Finish Time:
+Finish Time: 1934
 
-Actual Time Needed to Complete:
+Actual Time Needed to Complete: 50 minutes
 
 ### Feature #3 Bootstrap
 
