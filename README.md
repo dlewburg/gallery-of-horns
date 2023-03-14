@@ -18,13 +18,13 @@ Start Time: 1800
 
 Finish Time: 1834
 
-Actual Time Needed to Complete:
+Actual Time Needed to Complete: 34 minutes
 
 ### Feature #2 Allow Users to Favorite Individual Beasts
 
-Estimate of time needed to Complete:
+Estimate of time needed to Complete: 1 hour
 
-Start Time:
+Start Time: 1845
 
 Finish Time:
 
