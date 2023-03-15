@@ -27,7 +27,7 @@ export default class Hornedbeast extends Component {
           <Card.Subtitle>{this.props.description}</Card.Subtitle>
         <Card.Body>
           <Card.Text text="warning" onClick={this.addFavorite}>Favorite</Card.Text>
-          <Card.Text>💞{this.state.favorite}</Card.Text>
+          <Card.Text>💞 {this.state.favorite}</Card.Text>
         </Card.Body>
       </Card>
     )
