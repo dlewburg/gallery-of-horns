@@ -6,6 +6,7 @@ import Header from './Components/Header';
 import Main from './Components/Main';
 import Footer from './Components/Footer';
 
+
 //2nd create the class -- will always have a render method
 
 class App extends React.Component { //App name is a name that can be changed

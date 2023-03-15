@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
 import '../css/Hornedbeast.css'
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
 
 export default class Hornedbeast extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
-    
+
     this.state = {
       favorite: 0
     }
   }
 
-  // Method to update state for each beast to track likes
   addFavorite = () => {
     this.setState({
       favorite: this.state.favorite + 1
@@ -19,17 +20,17 @@ export default class Hornedbeast extends Component {
 
   render() {
     return (
-    <section>
-      <h2>{this.props.title}</h2>
-
-      <img onClick={this.addFavorite} src={this.props.image_url}
-        alt={this.props.description}
-        title={this.props.title} />
-
-      <p>{this.props.description}</p>
-      <p onClick={this.addFavorite}>Favorite</p>
-      <p>💞{this.state.favorite}</p>
-    </section>
+      <Card bg="success" border="warning" style={{ width: '3 rem' }}>
+        <Card.Title>{this.props.title}</Card.Title>
+        <Card.Img onClick={this.addFavorite} src={this.props.image_url}
+          alt={this.props.description}
+          title={this.props.title} />
+          <Card.Subtitle>{this.props.description}</Card.Subtitle>
+        <Card.Body>
+          <Card.Text text="warning" onClick={this.addFavorite}>Favorite</Card.Text>
+          <Card.Text>💞{this.state.favorite}</Card.Text>
+        </Card.Body>
+      </Card>
     )
   }
 }

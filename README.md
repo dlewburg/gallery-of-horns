@@ -8,7 +8,7 @@ Created by: Dasha Burgos
 
 Assisted by: Matt (TA), Cameron Walden,
 
-## Time Estimates
+## Time Estimates (Eastern Standard Time)
 
 ### Feature #1: Display Images
 
@@ -32,9 +32,9 @@ Actual Time Needed to Complete: 50 minutes
 
 ### Feature #3 Bootstrap
 
-Estimate of time needed to Complete:
+Estimate of time needed to Complete: 2 hours
 
-Start Time:
+Start Time: 2000
 
 Finish Time:
 

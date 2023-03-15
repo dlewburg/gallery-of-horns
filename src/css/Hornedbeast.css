@@ -1,4 +1,25 @@
-img{
+img.card-img{
   height: 300px;
-  width: 300px
+  width: 300px;
+  margin-bottom: 7px;
+}
+
+.card {
+  width: 300px;
+
+}
+
+.card-title {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.card-subtitle {
+  text-align: center;
+}
+
+.card-body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  justify-content: space-evenly;
 }
