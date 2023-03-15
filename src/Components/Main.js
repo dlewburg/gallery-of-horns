@@ -15,6 +15,7 @@ class Main extends React.Component {
             key={beast._id}
             keyword={beast.keyword}
             horns={beast.horns}
+            show = {this.props.show}
           />
         })}
       </main>
