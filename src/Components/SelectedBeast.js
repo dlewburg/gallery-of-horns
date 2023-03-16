@@ -7,11 +7,16 @@ export default class SelectedBeast extends Component {
   
   
   render() {
+    console.log(this.props)
     return (
       
       <Modal show = {this.props.display} onHide={this.props.onHide}>
-        <Card onClick={this.props.show}>
-          <Card.Title>"WOOORRRRRKKKKKKK"</Card.Title>
+        <Card>
+          <Card.Title>{this.props.selectedBeast.title}</Card.Title>
+          <Card.Img src={this.props.selectedBeast.image_url}></Card.Img>
+          <Card.Body>
+            <Card.Text>{this.props.selectedBeast.description}</Card.Text>
+          </Card.Body>
         </Card>
         <Modal.Footer><Button onClick={this.props.onHide}>Close</Button></Modal.Footer>
       </Modal>

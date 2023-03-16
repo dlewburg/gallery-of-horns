@@ -17,11 +17,14 @@ export default class Hornedbeast extends Component {
     })
   }
 
+  
+  
+
   render() {
     return (
         <Card bg="success" border="warning" style={{ width: '3 rem' }}>
           <Card.Title>{this.props.title}</Card.Title>
-          <Card.Img onClick={this.props.show} src={this.props.image_url}
+          <Card.Img onClick={()=>{this.props.show(this.props.title)}} src={this.props.image_url}
             alt={this.props.description}
             title={this.props.title} />
           <Card.Subtitle>{this.props.description}</Card.Subtitle>

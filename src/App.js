@@ -18,8 +18,6 @@ class App extends React.Component { //App name is a name that can be changed
       allBeast: data,
       showModal: false,
       selectedBeast: {}
-      // selectedBeastIimg:''
-      // selectedBeastDesc:''
     }
   }
   
@@ -43,11 +41,12 @@ class App extends React.Component { //App name is a name that can be changed
   }
 
   render() {
+    // console.log(this.state)
     return (
       <>
         <Header />
-        <Main data={this.state.allBeast } show={this.openModal}/>
-        <SelectedBeast show = {this.openModal} onHide = {this.closeModal} selectedBeast = {this.state.selectedBeast} display={this.state.showModal}/>
+        <Main data={this.state.allBeast} show={this.openModal}/>
+        <SelectedBeast show = {this.state.showModal} onHide = {this.closeModal} selectedBeast = {this.state.selectedBeast} display={this.state.showModal}/>
         <Footer />
       </>
     )
