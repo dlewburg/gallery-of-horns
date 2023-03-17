@@ -99,19 +99,3 @@ selectOption = (event) => {
 
 // 3rd Export the Class for other files to import (always have)
 export default App;
-
-
-{/* <Form.Label></Form.Label>
-<Form.Control onInput={this.formInput} type='text' title={this.title}/> */}
-// onSubmit = (event) => {
-//   event.preventDefault();
-//   this.setState({
-//     title: event.target.username.value
-//   })
-  
-// } FOR USE NEXT WEEK
-// formInput = (event) => {
-//   this.setState({
-//     title: event.target.value
-//   })
-// }
