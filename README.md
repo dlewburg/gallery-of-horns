@@ -10,12 +10,12 @@ Assisted by:
 
 ## Time Estimates (Eastern Standard Time)
 
-### Feature #1: Display A Modal
+### Feature #1: Filter by Number of Horns
 
-Estimate of time needed to Complete: 2 hours
+Estimate of time needed to Complete: 1hr
 
-Start Time: 1700
+Start Time: 1545
 
-Finish Time: 2040
+Finish Time: 2200
 
-Actual Time Needed to Complete: 3 hours 40 minutes
+Actual Time Needed to Complete: 6 hours
